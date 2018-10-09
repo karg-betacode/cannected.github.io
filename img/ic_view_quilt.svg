@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_view_quilt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cannected-Landing-Page-Web-v1" transform="translate(-1141.000000, -1042.000000)">
+            <g id="usp-group" transform="translate(0.000000, 710.000000)">
+                <g transform="translate(180.000000, 216.000000)" id="usp-3">
+                    <g transform="translate(740.000000, 0.000000)">
+                        <g id="ic_view_quilt" transform="translate(221.000000, 116.000000)">
+                            <polygon id="Bounds" fill-opacity="0.1" fill="#FFFFFF" points="0 0 75 0 75 75 0 75"></polygon>
+                            <path d="M28.8529412,59.0147059 L45.3970588,59.0147059 L45.3970588,39.1617647 L28.8529412,39.1617647 L28.8529412,59.0147059 L28.8529412,59.0147059 Z M9,59.0147059 L25.5441176,59.0147059 L25.5441176,16 L9,16 L9,59.0147059 L9,59.0147059 Z M48.7058824,59.0147059 L65.25,59.0147059 L65.25,39.1617647 L48.7058824,39.1617647 L48.7058824,59.0147059 L48.7058824,59.0147059 Z M28.8529412,16 L28.8529412,35.8529412 L65.25,35.8529412 L65.25,16 L28.8529412,16 L28.8529412,16 Z" id="Shape" fill="#F66830"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
