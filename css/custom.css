@@ -1,4 +1,15 @@
 /*! Place your custom styles here */
+@media (max-width: 767px) {
+  .gear-loading {
+    padding-top: 4vh;
+    padding-bottom: 4vh; }
+}
+@media (min-width: 767px) {
+  .gear-loading {
+    padding-top: 30vh;
+    padding-bottom: 30vh; }
+}
+
 .m-t-sm {
   margin-top: 1em !important;
 }

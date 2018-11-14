@@ -38,42 +38,79 @@
         <link href="css/font-sourcesanspro.css" rel="stylesheet" type="text/css">
 
     </head>
-    <body data-smooth-scroll-offset="77">
-        <div class="nav-container"> </div>
-        <div class="main-container">
-            <section class="imageblock switchable feature-large height-100">
-                <div class="imageblock__content col-lg-6 col-md-4 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="img/inner-3.svg"> </div>
-                </div>
-                <div class="container pos-vertical-center">
+    <body class=" ">
+        <a id="start"></a>
+        <div class="nav-container ">
+            <nav class="bar bar-4 bar--transparent bar--absolute" data-fixed-at="200" style="padding:0; padding-top: 1.85714286em;">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 col-md-7">
-                            <h1>Connecting all your grow operations and systems into one platform</h1> <span class="h2 countdown color--primary" data-date="09/25/2018" data-fallback-text="Getting ready"></span>
-                            <p class="lead">We're preparing to launch Cannected soon — enter your name and email and we'll let you know when we launch.</p>
-                            <form class="row justify-content-center p-b-sm" action="https://cannected.us6.list-manage.com/subscribe/post?u=b8c29b4cb0&amp;id=f57ee1ef20" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your name and email address and agree to the terms.">
-                                <div class="col-12"> <input class="validate-required" type="text" name="NAME" placeholder="Name" id="mce-FNAME"> </div>
-                                <div class="col-12"> <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address" id="mce-EMAIL"> </div>
-                                <div class="col-12"> <button type="submit" class="btn btn--primary" id="mc-embedded-subscribe">Request Early Access</button> </div>
-                            </form>
-                            <!-- <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-                                <div class="row">
-                                    <div class="col-12"> <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address"> </div>
-                                    <div class="col-12"> <button type="submit" class="btn btn--primary type--uppercase">Notify Me</button> </div>
-                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="#">Terms of Service</a></span> </div>
-                                    <div style="position: absolute; left: -5000px" aria-hidden="true"> <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value=""> </div>
-                                </div>
-                            </form> -->
+                        <div class="col-lg-1 col-md-2 col-md-offset-0 col-4">
+                            <div class="bar__module">
+                                <a href="index.html">
+                                    <img class="logo logo-dark" alt="logo" src="img/cannected-logo-color.svg" />
+                                    <img class="logo logo-light" alt="logo" src="img/cannected-logo-white.svg" />
+                                </a>
+                            </div>
+                            <!--end module-->
                         </div>
                     </div>
+                    <!--end of row-->
                 </div>
+                <!--end of container-->
+            </nav>
+            <!--end bar-->
+        </div>
+        <div class="main-container">
+            <section class="imageblock switchable feature-large height-100 ">
+                <div class="imageblock__content col-lg-6 col-md-4 pos-right" data-overlay="1" style="background: #7f2506;">
+
+                    <img src="img/gearloading-old.gif" alt="Gear Icon" width="400" class="gear-loading" style="display: block; margin: auto;">
+                </div>
+                <div class="container pos-vertical-center" style="padding-top: 3.57142857em;">
+                    <div class="row ">
+                        <div class="col-lg-5 col-md-7">
+                            <h2 style="margin-bottom:2vh;">We’ve been working on something just for you</h2>
+                            <p style="font-size: 1.1em;">
+                                Today’s technology doesn’t adequately address the workflow requirements and business challenges of indoor cultivators.
+                            </p>
+                            <p style="font-size: 1.1em; margin-bottom:3.5vh;">
+                                You want to optimize your grow facility, plan your next batch, manage active plants, record grow journal, manage employees’ tasks, track costs, forecast yields and be in compliance.
+                            </p>
+                            <div class="bg--secondary boxed boxed--border">
+                                <form action="https://cannected.us6.list-manage.com/subscribe/post?u=b8c29b4cb0&amp;id=f57ee1ef20" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your name and email address and agree to the terms.">
+                                    <h6 class="type--uppercase">Beta Open &mdash; Request Early Access</h6>
+                                    <input class="validate-required" type="text" name="NAME" placeholder="Name" id="mce-FNAME" />
+                                    <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address" id="mce-EMAIL" />
+                                    <button type="submit" class="btn btn--primary type--uppercase id="mc-embedded-subscribe"">Request Invite</button>
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
             </section>
         </div>
+        <!--<div class="loader"></div>-->
         <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/easypiechart.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/datepicker.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/granim.min.js"></script>
+        <script src="js/jquery.steps.min.js"></script>
         <script src="js/countdown.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
-
     </body>
 
 </html>
