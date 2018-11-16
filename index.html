@@ -66,9 +66,9 @@
 
                     <!-- <img src="img/gearloading-old.gif" alt="Gear Icon" width="400" class="gear-loading" style="display: block; margin: auto;"> -->
                     <!-- <h1 style="color: white; padding-left: 165px; margin-top: 250px;">We've been working on something just for you!</h1> -->
-                    <h1 style="color: white; padding-left: 165px; margin-top: 250px; font-size: 40px; ">Introducing, the only tool that connects every aspect of your indoor growing operation.</h1>
+                    <h1 class="main-title">Introducing, the only tool that connects every aspect of your indoor growing operation.</h1>
                 </div>
-                <div class="container pos-vertical-center" style="border-bottom: 1px solid #eee; min-height: 100vh; padding-top: 100px; padding-bottom: 0;">
+                <div class="container pos-vertical-center main-right">
                     <div class="row ">
                         <div class="col-lg-5 col-md-7">
                             <h2 style="margin-bottom:2vh;">Cannected is a single, efficient, and easy-to-use system built specifically for indoor cultivators.</h2>
@@ -91,10 +91,12 @@
                     </div>
                     <!--end of row-->
                 </div>
+            </section>
+            <section class="small-pad">
                 <!--end of container-->
                 <div class="container">
-                    <div class="row" style="flex-flow: row;">
-                        <div class="col-lg-4 card">
+                    <div class="row rowit" style="flex-flow: row;">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>EASY FACILITY PLANNING</h3>
                             <ul>
                                 <li>Set up facility into specific rooms or work locations within corresponding batch growth stages</li>
@@ -102,7 +104,7 @@
                                 <li>Smart capacity management of all your grow rooms to maximize yield</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>GET A GRIP ON INVENTORY MANAGEMENT</h3>
                             <ul>
                                 <li>Inventory tracking through use of mobile barcodes</li>
@@ -110,7 +112,7 @@
                                 <li>Track supplies, plants and production outputs to satisfy traceability requirements</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>CONVENIENT PRODUCTION PLANNING AND MANAGEMENT</h3>
                             <ul>
                                 <li>Easily create new production batches</li>
@@ -122,8 +124,8 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row" style="flex-flow: row;">
-                        <div class="col-lg-4 card">
+                    <div class="row rowit" style="flex-flow: row;">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>THE SIMPLEST WAY TO MANAGE TEAMS</h3>
                             <ul>
                                 <li>Manage employee time and tasks</li>
@@ -131,7 +133,7 @@
                                 <li>View reports on staff work history including time spent on tasks and total hours worked</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>MAKE MORE INFORMED DECISIONS</h3>
                             <ul>
                                 <li>Yield performance</li>
@@ -145,7 +147,7 @@
                                 <li>Consistency of harvests and yields</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 col-sm-12 card">
                             <h3>ANYONE CAN USE CANNECTED</h3>
                             <ul>
                                 <li>Easy to use for anyone in your operation</li>
@@ -177,6 +179,7 @@
         <style type="text/css">
             .card {
                 padding: 20px;
+                padding-top: 120px;
             }
 
             .card h3 {
@@ -186,6 +189,44 @@
             .card ul {
                 list-style: inherit;
                 padding-inline-start: 15px;
+            }
+
+            .small-pad {
+                padding: 0
+            }
+
+            .main-title {
+                color: white; padding-left: 165px; margin-top: 250px; font-size: 40px;
+            }
+
+            .main-right {
+                border-bottom: 1px solid #eee; min-height: 100vh; padding-top: 100px; padding-bottom: 0;
+            }
+
+            @media all and (max-width: 767px) {
+                .main-title { 
+                    padding: 60px 20px;
+                    font-size: 2em;
+                    margin-top: 0;
+                }
+
+                .main-right {
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    min-height: auto;
+                }
+
+                .rowit {
+                    display: block;
+                }
+
+                .card {
+                    padding-top: 20px;
+                }
+
+                .card h3 {
+                    min-height: auto;
+                }
             }
         </style>
     </body>
